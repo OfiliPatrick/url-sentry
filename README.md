@@ -34,11 +34,11 @@ npm start
 
 ![](https://github.com/OfiliPatrick/url-sentry/blob/master/hosts-file-example.png)
 
-##### Testing
+#### Testing
 
 1. Enter the URL of the restricited website on your browser
 2. Email notification starts to roll in.
 
-#### Note
+### Note
 
 For security reasons your 'hosts' file should be read only by default.
