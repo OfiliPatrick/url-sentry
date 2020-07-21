@@ -28,17 +28,17 @@ npm start
 
 #### Website Restriction
 
-![](https://github.com/OfiliPatrick/url-sentry/blob/master/hosts-file-example.png)
+1. Navigate to your 'hosts' file on your local machine through C:\Windows\System32\drivers\etc
+2. Make sure you have the appropriate permissions to edit the file.
+3. Below the host file, map the website you want to restrict e.g test.com to the IP address for localhost (127.0.0.1).
 
-1. Navigate to your 'Hosts' file on your local machine through C:\Windows\System32\drivers\etc
-2. Set
-3.
+![](https://github.com/OfiliPatrick/url-sentry/blob/master/hosts-file-example.png)
 
 ##### Testing
 
 1. Enter the URL of the restricited website on your browser
-2. Email notifications start rolling in.
+2. Email notification starts to roll in.
 
 #### Note
 
-For security reasons your 'Hosts' file should be read only by default.
+For security reasons your 'hosts' file should be read only by default.
