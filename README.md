@@ -1,5 +1,5 @@
 # URL-Sentry
-URL-Sentry is a website monitoring tool built primarily with Express and NodeJS. It is designed to:
+URL-Sentry is a website/url monitoring tool built primarily with Express and NodeJS. It is designed to:
 
 - Monitor restricited websites.
 - Send email notifications to a user when such a website is being accessed on the user’s local machine.
@@ -26,10 +26,14 @@ npm start
 ### Usage
 
 #### Website Restriction
+![](https://github.com/OfiliPatrick/pied-piper/blob/master/src/images/piedpreview.png?raw=true)
 
 1. Navigate to your 'Hosts' file on your local machine through C:\Windows\System32\drivers\etc
 2. Set 
 3.
+
+
+
 
 ##### Testing
 
@@ -37,7 +41,7 @@ npm start
 2. Email notifications start rolling in.
 
 
-##### Note
+#### Note
 For security reasons your 'Hosts' file should be read only by default.
 
 
