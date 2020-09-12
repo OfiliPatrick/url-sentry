@@ -2,7 +2,7 @@
 
 URL-Sentry is a website/url monitoring tool built primarily with Express and NodeJS. It is designed to:
 
-- Monitor restricited websites.
+- Monitor restricted websites.
 - Send email notifications to a user when such a website is being accessed on the user’s local machine.
 
 ## Getting Started
