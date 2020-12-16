@@ -29,7 +29,7 @@ const URL_Sentry_Middleware = (req, res, next) => {
   <p> URL Sentry has detected access!</p>
   <h3 > Access Details</h3>
   <ul>
-  <li> URL: azure.com</li>
+  <li> URL: suspect.com</li>
   <li> Access Type: Unsecure</li>
   <li> Date Accessed: ${dateTime}</li>
   </ul>

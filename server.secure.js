@@ -4,7 +4,7 @@ const nodemailer = require("nodemailer");
 const sendgridTransport = require("nodemailer-sendgrid-transport");
 const app = express();
 
-require('dotenv').config()
+require("dotenv").config();
 
 //middle ware
 app.use(bodyParser.json());
@@ -21,7 +21,7 @@ const URL_Sentry_Middleware = (req, res, next) => {
   const transporter = nodemailer.createTransport(
     sendgridTransport({
       auth: {
-        api_key: process.env.SENDGRID_API_KEY
+        api_key: process.env.SENDGRID_API_KEY,
       },
     })
   );
@@ -30,7 +30,7 @@ const URL_Sentry_Middleware = (req, res, next) => {
   <p> URL Sentry has detected access!</p>
   <h3 > Access Details</h3>
   <ul>
-  <li> URL: azure.com</li>
+  <li> URL: suspect.com</li>
   <li> Access Type: Unsecure</li>
   <li> Date Accessed: ${dateTime}</li>
   </ul>
